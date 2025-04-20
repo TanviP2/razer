@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+.breakline{
+    height: 44px;
+    width: 100%;
+    background-color: #555555;
+    color: #EEEEEE;
+    position: absolute;
+    bottom: 85%;
+    text-align: center;
+    line-height: 287%;
+}
+.greenline{
+    width: 100%;
+    position: absolute;
+    height: 3px;
+    background-color: green;
+    bottom: 91%;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left:0;
+    height: 60.8px;
+    width: 100%;
+    background: #000000;
+}
+.logo-img{
+    width: 35px;
+    height: 35px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px 0 60px;
+    margin: 0 10%;
+}
+.nav-items{
+    color: #888888;
+    font-size: 16px;
+    font-weight: lighter;
+} 
+.fa-solid{
+    color: #888888;
+    font-size: 16px;
+}
+.home-image{
+  background-size: cover;
+ background-image: url("FIRSTPIC.webp");
+  background-position: center;
+  min-height: 100vh;
+}
+.sub-section h2{
+    font-size: 3.6rem;
+}
+.sub-section h3{
+    font-size: 1.6rem;
+    margin-left: 106px;
+}
+section{
+    position: absolute;
+    color: white;
+    bottom: 56%;      
+    left: 32%;
+}
+.link{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 25px;
+}
+.break{
+    height: 9px;
+    padding-bottom: 10px;
+    background: #222;
+}
+.second-homeimage{
+  background-image: url("razer-firefly-v2-pro-homepage-desktop2x.webp");
+  background-position: center;
+  background-size: cover;
+  min-height: 60px;
+  height: 75vh;
+}
+/* second div */
+.second-hometext{
+    COLOR: WHITE;
+    position: absolute;
+    top: 110%;
+    left: 37%;
+}
+#head2{
+    margin-left: 68px;
+}
+/* third div */
+.third-homeimage{
+    background-image: url("third\ image.webp");
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    height: 75vh;
+}
+.third-hometext{
+    position: absolute;
+    left: 32%;
+    bottom: -110%;
+    color: white;
+}
+
